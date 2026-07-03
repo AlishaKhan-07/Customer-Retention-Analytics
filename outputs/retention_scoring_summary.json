@@ -1,0 +1,20 @@
+{
+  "avg_retention_score": 60.25,
+  "retention_band_distribution": {
+    "Strong": 3698,
+    "At Risk": 3121,
+    "Stable": 2851,
+    "Critical Risk": 330
+  },
+  "churn_rate_by_band": {
+    "Critical Risk": 53.33,
+    "At Risk": 28.93,
+    "Stable": 20.34,
+    "Strong": 10.22
+  },
+  "avg_score_churned_vs_retained": {
+    "0": 62.47,
+    "1": 51.58
+  },
+  "critical_risk_priority_count": 99
+}

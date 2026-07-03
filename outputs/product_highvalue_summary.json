@@ -1,0 +1,42 @@
+{
+  "product_utilization": {
+    "product_distribution": {
+      "1": 5084,
+      "2": 4590,
+      "3": 266,
+      "4": 60
+    },
+    "churn_rate_by_products": {
+      "1": 27.71,
+      "2": 7.58,
+      "3": 82.71,
+      "4": 100.0
+    },
+    "avg_balance_by_products": {
+      "1": 98551.87,
+      "2": 51879.15,
+      "3": 75458.33,
+      "4": 93733.14
+    },
+    "product_tier_distribution": {
+      "Single Product": 5084,
+      "Two Products": 4590,
+      "Multi-Product (3-4)": 326
+    },
+    "churn_by_product_tier": {
+      "Multi-Product (3-4)": 85.89,
+      "Single Product": 27.71,
+      "Two Products": 7.58
+    },
+    "cross_sell_opportunity_count": 1655,
+    "churn_rate_3plus_products": 85.89
+  },
+  "high_value_disengaged": {
+    "high_value_threshold": 120988.26,
+    "high_value_customer_count": 2500,
+    "high_value_disengaged_count": 1271,
+    "high_value_disengaged_pct_of_highvalue": 50.84,
+    "high_value_disengaged_churn_rate": 30.76,
+    "estimated_value_at_risk": 180160770.68
+  }
+}

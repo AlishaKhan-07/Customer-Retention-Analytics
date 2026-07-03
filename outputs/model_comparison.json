@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.749,
+      "precision": 0.432,
+      "recall": 0.742,
+      "f1_score": 0.5461,
+      "roc_auc": 0.8319
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.831,
+      "precision": 0.5729,
+      "recall": 0.6658,
+      "f1_score": 0.6159,
+      "roc_auc": 0.8565
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.809,
+      "precision": 0.5223,
+      "recall": 0.7199,
+      "f1_score": 0.6054,
+      "roc_auc": 0.8594
+    }
+  ],
+  "best_model": "XGBoost",
+  "best_model_metrics": {
+    "model": "XGBoost",
+    "accuracy": 0.809,
+    "precision": 0.5223,
+    "recall": 0.7199,
+    "f1_score": 0.6054,
+    "roc_auc": 0.8594
+  },
+  "feature_importance": {
+    "NumOfProducts": 0.2240000069141388,
+    "HasZeroBalance": 0.13809999823570251,
+    "Age": 0.12800000607967377,
+    "Geography_enc": 0.07670000195503235,
+    "RetentionStrengthScore": 0.06970000267028809,
+    "IsActiveMember": 0.06889999657869339,
+    "Gender_enc": 0.05380000174045563,
+    "Balance": 0.04809999838471413,
+    "BalanceSalaryRatio": 0.04100000113248825,
+    "EngagementScore": 0.031300000846385956,
+    "CreditScore": 0.03099999949336052,
+    "HasCrCard": 0.030300000682473183,
+    "EstimatedSalary": 0.029899999499320984,
+    "Tenure": 0.029200000688433647
+  },
+  "test_set_size": 2000,
+  "train_set_size": 8000
+}

@@ -1,0 +1,136 @@
+{
+  "eda": {
+    "shape": {
+      "rows": 10000,
+      "columns": 21
+    },
+    "overall_churn_rate": 20.37,
+    "numeric_summary": {
+      "CreditScore": {
+        "count": 10000.0,
+        "mean": 650.53,
+        "std": 96.65,
+        "min": 350.0,
+        "25%": 584.0,
+        "50%": 652.0,
+        "75%": 718.0,
+        "max": 850.0
+      },
+      "Age": {
+        "count": 10000.0,
+        "mean": 38.92,
+        "std": 10.49,
+        "min": 18.0,
+        "25%": 32.0,
+        "50%": 37.0,
+        "75%": 44.0,
+        "max": 92.0
+      },
+      "Tenure": {
+        "count": 10000.0,
+        "mean": 5.01,
+        "std": 2.89,
+        "min": 0.0,
+        "25%": 3.0,
+        "50%": 5.0,
+        "75%": 7.0,
+        "max": 10.0
+      },
+      "Balance": {
+        "count": 10000.0,
+        "mean": 76485.89,
+        "std": 62397.41,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 97198.54,
+        "75%": 127644.24,
+        "max": 250898.09
+      },
+      "NumOfProducts": {
+        "count": 10000.0,
+        "mean": 1.53,
+        "std": 0.58,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 2.0,
+        "max": 4.0
+      },
+      "EstimatedSalary": {
+        "count": 10000.0,
+        "mean": 100090.24,
+        "std": 57510.49,
+        "min": 11.58,
+        "25%": 51002.11,
+        "50%": 100193.92,
+        "75%": 149388.25,
+        "max": 199992.48
+      }
+    },
+    "geography_distribution": {
+      "France": 5014,
+      "Germany": 2509,
+      "Spain": 2477
+    },
+    "gender_distribution": {
+      "Male": 5457,
+      "Female": 4543
+    },
+    "churn_by_geography": {
+      "France": 16.15,
+      "Germany": 32.44,
+      "Spain": 16.67
+    },
+    "churn_by_gender": {
+      "Female": 25.07,
+      "Male": 16.46
+    },
+    "churn_by_age_group": {
+      "18-30": 7.5,
+      "31-40": 12.09,
+      "41-50": 33.97,
+      "51-60": 56.21,
+      "60+": 24.78
+    },
+    "churn_by_num_products": {
+      "1": 27.71,
+      "2": 7.58,
+      "3": 82.71,
+      "4": 100.0
+    },
+    "churn_by_active_member": {
+      "0": 26.85,
+      "1": 14.27
+    },
+    "churn_by_has_cr_card": {
+      "0": 20.81,
+      "1": 20.18
+    },
+    "correlation_with_churn": {
+      "Age": 0.285,
+      "Balance": 0.119,
+      "EstimatedSalary": 0.012,
+      "HasCrCard": -0.007,
+      "Tenure": -0.014,
+      "CreditScore": -0.027,
+      "NumOfProducts": -0.048,
+      "IsActiveMember": -0.156
+    }
+  },
+  "engagement": {
+    "active_member_share": 51.51,
+    "avg_engagement_score": 50.78,
+    "engagement_score_by_churn": {
+      "0": 52.51,
+      "1": 44.0
+    },
+    "churn_by_tenure_group": {
+      "0-1 yrs": 22.58,
+      "2-3 yrs": 20.13,
+      "4-6 yrs": 20.49,
+      "7-10 yrs": 19.51
+    },
+    "disengaged_low_tenure_count": 1148,
+    "disengaged_low_tenure_churn_rate": 28.57
+  }
+}
