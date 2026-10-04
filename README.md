@@ -58,6 +58,8 @@ streamlit run app.py         # launches the 8-page dashboard
 7. Churn Prediction (AI/ML) – model comparison + live single-customer prediction
 8. Business Recommendations – synthesized insights and prioritized actions
 
+## Deployed project - [LINK](https://customer-retention-analyticsgit-qtwf53wqtowghsmffmz3x7.streamlit.app/#customer-retention-and-churn-prediction-analytics)
+
 ## Notes
 - Churn rate 3–4 products (~83–100%) is a known signature of this classic bank-churn dataset and
   is flagged in the app as an over-selling/service-issue red flag rather than a loyalty signal.
